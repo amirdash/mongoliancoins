@@ -34,9 +34,7 @@ p {
 img {
     max-width:100%;
 }
-.navbar-brand {
-color:red;
-font-size:36px;}
+
 
 
 
@@ -3682,7 +3680,8 @@ tbody.collapse.show {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 30px;/* Change */
+  color: red;
   line-height: inherit;
   white-space: nowrap;
 }
