@@ -3681,7 +3681,7 @@ tbody.collapse.show {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 30px;/* Change */
-  color: red;
+  color: #ff0000;/* Change */
   line-height: inherit;
   white-space: nowrap;
 }
