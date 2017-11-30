@@ -4003,7 +4003,7 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: red;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
