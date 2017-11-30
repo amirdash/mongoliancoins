@@ -34,7 +34,8 @@ p {
 img {
     max-width:100%;
 }
-
+.navbar-brand {
+color:red;}
 
 
 
