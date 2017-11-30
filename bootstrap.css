@@ -3680,7 +3680,7 @@ tbody.collapse.show {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 30px;/* Change */
+  font-size: 80px;/* Change */
   color: #ff0000;/* Change */
   line-height: inherit;
   white-space: nowrap;
@@ -4003,7 +4003,7 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-brand {
-  color: red;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
