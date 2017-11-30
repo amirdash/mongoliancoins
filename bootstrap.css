@@ -40,12 +40,12 @@ img {
 	font-size: 20px;
 	font-family:"Times New Roman", Times, serif;
 	}
-.brand a {
+.brand:focus {
   color: green;
   text-decoration: underline;
 }
 
-.brand a:hover {
+.brand:hover {
   color: yellow;
   text-decoration: underline;
 }
