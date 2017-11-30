@@ -38,6 +38,7 @@ img {
 .brand{
 	color:#dcad09;
 	font-size: 20px;
+	font-family:"Times New Roman", Times, serif;
 	}
 .brand a {
   color: green;
@@ -45,7 +46,7 @@ img {
 }
 
 .brand a:hover {
-  color: blue;
+  color: yellow;
   text-decoration: underline;
 }
 
