@@ -34,9 +34,20 @@ p {
 img {
     max-width:100%;
 }
+
 .brand{
-	color:#ff0000;
+	color:#dcad09;
+	font-size: 20px;
 	}
+.brand a {
+  color: green;
+  text-decoration: underline;
+}
+
+.brand a:hover {
+  color: blue;
+  text-decoration: underline;
+}
 
 
 
