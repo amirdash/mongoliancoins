@@ -34,7 +34,9 @@ p {
 img {
     max-width:100%;
 }
-
+.navbar-brand a{
+	color:red;
+	}
 
 
 
@@ -3680,7 +3682,7 @@ tbody.collapse.show {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 80px;/* Change */
+  font-size: 20px;/* Change */
   color: #ff0000;/* Change */
   line-height: inherit;
   white-space: nowrap;
