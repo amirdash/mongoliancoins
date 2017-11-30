@@ -41,12 +41,12 @@ img {
 	font-family:"Times New Roman", Times, serif;
 	}
 .brand:focus {
-  color: green;
+  color: #dcad09;
   text-decoration: underline;
 }
 
 .brand:hover {
-  color: yellow;
+  color: #ffffff;
   text-decoration: underline;
 }
 
