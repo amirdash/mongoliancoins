@@ -50,8 +50,9 @@ img {
   text-decoration: underline;
 }
 .copyright {
-  color: #ffffff;
+  color: #ff00;
   font-size: 9px;
+  text-align:center;
 }
 
 
