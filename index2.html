@@ -7,7 +7,27 @@
     <meta name="author" content="">
     <title>MongolianCoins.com</title>
     <link href="bootstrap.css" rel="stylesheet">
-
+ <script>
+	$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+			</script>
      
      
   </head>
@@ -65,7 +85,7 @@
       
       
       
-  <h1>Welcome5432</h1>
+  <h1>Welcome6432</h1>
  
 
   <table width="100%" border="0" cellspacing="0" cellpadding="5">
@@ -175,27 +195,7 @@
     <script src="jquery.min.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
     
-    <script>
-	$(document).ready(function() {
-	$('.popup-gallery').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-			}
-		}
-	});
-});
-			</script>
+   
 
   </body>
 
