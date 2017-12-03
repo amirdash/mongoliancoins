@@ -7,8 +7,7 @@
     <meta name="author" content="">
     <title>MongolianCoins.com</title>
     <link href="bootstrap.css" rel="stylesheet">
-     <link href="ekko-lightbox.css" rel="stylesheet">
-     <script src="ekko-lightbox.js"></script>
+
      
      
   </head>
@@ -66,7 +65,7 @@
       
       
       
-  <h1>Welcome32</h1>
+  <h1>Welcome432</h1>
  
 
   <table width="100%" border="0" cellspacing="0" cellpadding="5">
@@ -134,7 +133,11 @@
                 <img src="images/abaqa_280x.jpg" class="img-fluid">
             </a>
             
-            
+            <div class="popup-gallery">
+	<a href="images/abaqa_280x.jpg" title="The Cleaner">
+    <img src="images/abaqa_280x.jpg"></a>
+	
+</div>
          
         </td>
         <td valign="top" background="images/bg_table.jpg" class="tabletd"><b>TEST</b><br>
@@ -175,10 +178,25 @@
     <script src="bootstrap.bundle.min.js"></script>
     
     <script>
-	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
+	$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
 			</script>
 
   </body>
