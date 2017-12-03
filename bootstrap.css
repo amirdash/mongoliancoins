@@ -54,7 +54,6 @@ img {
   font-size: 10px;
   text-align:center;
   background-color:#000;
-  
 }
 
 
@@ -8364,7 +8363,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-white {
-  color: #666 !important;
+  color: #eee !important;/* change */
 }
 
 .text-primary {
