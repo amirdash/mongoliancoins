@@ -50,7 +50,6 @@ img {
   text-decoration: underline;
 }
 .copyright {
-  color: #ff00 !important;
   font-size: 11px;
   text-align:center;
   background-color:#000;
@@ -8363,7 +8362,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-white {
-  color: #000 !important;/* change */
+  color: #eee !important;/* change */
 }
 
 .text-primary {
