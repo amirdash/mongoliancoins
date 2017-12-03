@@ -51,7 +51,7 @@ img {
 }
 .copyright {
   color: #ff00 !important;
-  font-size: 10px;
+  font-size: 11px;
   text-align:center;
   background-color:#000;
 }
@@ -8363,7 +8363,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-white {
-  color: #eee !important;/* change */
+  color: #000 !important;/* change */
 }
 
 .text-primary {
