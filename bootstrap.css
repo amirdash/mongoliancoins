@@ -57,6 +57,18 @@ td{color:#000;}
 .nav-link a{
 	color: #ff0000;
 	}
+.nav-link {
+  color: #ff0000;
+  
+}
+.nav-link:focus, .nav-link:hover {
+  color: #ff0000;
+}
+.nav-link.disabled {
+  color: #ff0000;
+}
+
+
 .nav-item li{
 	color: #ff0000;
 	}
@@ -3590,7 +3602,7 @@ tbody.collapse.show {
   padding: 0.5rem 1rem;
   font-size:12px;
   white-space: nowrap;
-  color: #ff0000;
+  
 }
 
 .nav-link:focus, .nav-link:hover {
