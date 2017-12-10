@@ -25,7 +25,7 @@ padding-left:10px;
 }
 h1, h2, h3, h4, h5, h6 {
   text-align:center;
-  
+  color: #ffffff;
 }
 p {
   color: #eee;
@@ -52,7 +52,7 @@ p {
   text-align:center;
   background-color:#000;
 }
-td{color:#eee;}
+td{color:#eee;font-size:12px;}
 
 .nav-link2 {
   display: block;
@@ -75,7 +75,7 @@ td{color:#eee;}
 body {
 	
 	background-image: url(images/bg_texture_main.gif);
-	
+	color: red;
 }
 
 
