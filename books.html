@@ -8,8 +8,17 @@
     <title>MongolianCoins.com</title>
     <link href="bootstrap.css" rel="stylesheet">
 
-     
-     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111119579-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111119579-1');
+</script>
+
   </head>
   <body>
 
@@ -319,7 +328,27 @@
     <script src="jquery.min.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
     
-   
+   <a href="#" class="back-to-top" style="display: inline;">
+<i class="fa fa-arrow-circle-up"></i>
+</a><script>
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
 
   </body>
 
